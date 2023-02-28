@@ -10,3 +10,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #232320;
     font-family: 'Roboto Mono', monospace;
 }
+
+nav{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
