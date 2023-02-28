@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Mono:wght@400;500&display=swap');
+
+body {
+    background-color: #FEFAF6;
+    color: #656270;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #232320;
+    font-family: 'Roboto Mono', monospace;
+}
