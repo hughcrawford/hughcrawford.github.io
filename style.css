@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Mono:wght@400;500&display=swap');
+@font-face {
+    font-family: GreatSailor;
+    src: url(./font/Great\ Sailor.ttf);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@400;500&display=swap');
 
 body {
     background-color: #FEFAF6;
-    color: #656270;
+    color: #777777;
     font-family: 'Nunito Sans', sans-serif;
+    
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    color: #232320;
+    font-size: 4rem;
+    font-family: 'GreatSailor', monospace;
+}
+
+h2, h3, h4, h5, h6 {
     color: #232320;
     font-family: 'Roboto Mono', monospace;
 }
@@ -18,4 +30,9 @@ nav{
 .info-section {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.info-section p {
+    font-size: 20px;
+    line-height: 2rem;
 }
