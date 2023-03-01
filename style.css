@@ -1,10 +1,14 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
 @font-face {
-    font-family: GreatSailor;
+    font-family: 'GreatSailor';
     src: url(./font/Great\ Sailor.ttf);
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@400;500&display=swap');
-
+/* GLOBAL STYLES */
 body {
     background-color: #FEFAF6;
     color: #777777;
@@ -15,24 +19,51 @@ body {
 h1 {
     color: #232320;
     font-size: 4rem;
-    font-family: 'GreatSailor', monospace;
+    font-family: 'GreatSailor', 'Roboto Mono', monospace;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+    color: #232320;
+    font-size: 3rem;
+    font-family: 'GreatSailor', 'Roboto Mono', monospace;
+}
+
+h3, h4, h5, h6 {
     color: #232320;
     font-family: 'Roboto Mono', monospace;
 }
 
+/* NAVIGATION */
 nav{
     font-family: 'Roboto Mono', monospace;
 }
 
+.nav-link {
+    color: #232320;
+}
+
+.center-link {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* FORMATTING */
 .info-section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .info-section p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2rem;
+    text-align: justify;
+}
+
+.info-section ul {
+    margin-top: 50px;
+}
+
+.info-section li {
+    padding-bottom: 10px;
+    list-style-type: none;
 }
